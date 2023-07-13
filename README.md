@@ -1,3 +1,17 @@
 # Job-matching-using-NLP
 
-` gfvjkn`
+* Clone the Repository
+`$git clone https://github.com/Paul-Ndirangu/Job-matching-using-NLP/`
+
+* Install Requirements
+`$pip install -r requirements.txt`
+> * Alternative
+>   `$pip install fastapi uvicorn`
+>   `$pip install sklearn typing`
+>   `$pip install docx pdfminer`
+
+* Run App
+`$uvicorn main:app --reload
+
+* Open your Browser
+`[https://127.0.0.1:8000/doc](http://127.0.0.1:8000/docs)`
