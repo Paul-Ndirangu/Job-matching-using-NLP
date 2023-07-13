@@ -25,7 +25,7 @@ def extract_text_from_docx(docx_path):
  
 def skill_exists(skill):
     url = f'https://api.apilayer.com/skills?q={skill}&amp;count=1'
-    headers = {'apikey': 'TwVpMyBqocNieYoOwXeIXDApduNFo5R4'}
+    headers = {'apikey': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX'}
     response = requests.request('GET', url, headers=headers)
     result = response.json()
  
