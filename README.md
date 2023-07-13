@@ -6,9 +6,9 @@
 * Install Requirements
 `$pip install -r requirements.txt`
 > * Alternative
->   `$pip install fastapi uvicorn`
->   `$pip install sklearn typing`
->   `$pip install docx pdfminer`
+>   `$pip install fastapi uvicorn`<br/>
+>   `$pip install sklearn typing`<br/>
+>   `$pip install docx pdfminer`<br/>
 
 * Run App
 `$uvicorn main:app --reload
