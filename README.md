@@ -8,6 +8,7 @@
 
 * Activate env
 > `virtualvenv venv`
+> 
 > `source ./venv/bin/activate`
 
 * Install Requirements
