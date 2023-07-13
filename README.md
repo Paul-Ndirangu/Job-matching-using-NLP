@@ -5,7 +5,7 @@
 
 * Install Requirements
 `$pip install -r requirements.txt`
-> * Alternative
+> * Alternative<br/>
 >   `$pip install fastapi uvicorn`<br/>
 >   `$pip install sklearn typing`<br/>
 >   `$pip install docx pdfminer`<br/>
