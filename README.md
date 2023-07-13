@@ -19,8 +19,8 @@
 >   `pip install sklearn typing`<br/>
 >   `pip install docx pdfminer`<br/>
 
-* Run App
-`$uvicorn main:app --reload
+* Run App<br/>
+`$uvicorn main:app --reload`
 
 * Open your Browser<br/>
   [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)<br/>
