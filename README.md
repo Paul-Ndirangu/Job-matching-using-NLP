@@ -11,10 +11,10 @@
 > 
 > `source ./venv/bin/activate`
 
-* Install Requirements
+* Install Requirements<br/>
 `pip install -r requirements.txt`
 
-* Alternative<br/>
+* Alternative of Install Requirements<br/>
 >   `pip install fastapi uvicorn`<br/>
 >   `pip install sklearn typing`<br/>
 >   `pip install docx pdfminer`<br/>
