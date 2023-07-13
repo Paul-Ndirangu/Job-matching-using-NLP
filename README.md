@@ -14,4 +14,4 @@
 `$uvicorn main:app --reload
 
 * Open your Browser
-`[https://127.0.0.1:8000/doc](http://127.0.0.1:8000/docs)`
+  [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
