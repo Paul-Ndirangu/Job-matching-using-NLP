@@ -3,6 +3,13 @@
 * Clone the Repository
 `git clone https://github.com/Paul-Ndirangu/Job-matching-using-NLP/`
 
+* Create Virtual Environment
+`pip install virtualenv`
+
+* Activate env
+> `virtualvenv venv`
+> `source ./venv/bin/activate`
+
 * Install Requirements
 `pip install -r requirements.txt`
 > * Alternative<br/>
