@@ -102,9 +102,10 @@ The project requires the following dependencies:
 - Python 3.x
 - FastAPI
 - Uvicorn
-- NLTK (Natural Language Toolkit)
+- Docx
+- Pdfminer
 - Scikit-learn
-- Flask (for web interface)
+- React/Vue/Angular (for web interface)
 
 
 ## Contributing
