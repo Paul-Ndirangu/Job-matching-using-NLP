@@ -37,26 +37,51 @@ To get started with this project, follow the steps below:
 
 1. Clone the repository:
 
-   ```shell
-   git clone https://github.com/your-username/your-repo.git
+```shell
+git clone https://github.com/Paul-Ndirangu/Job-matching-using-NLP/
+```
+
+2. Create Virtual Environment
+```shell
+pip install virtualenv
+```
+
+3. Create env
+```shell
+virtualvenv venv
+```
+
+4. Activate env
+```shell
+source ./venv/bin/activate
+```
+
+5. You can install the required packages by running the following command:<br/>
+```shell
+pip install -r requirements.txt
+```
+
+> Alternative of Install Requirements<br/>
+```shell
+pip install fastapi uvicorn```
+
+```shell
+pip install sklearn typing
+```
+
+```shell
+pip install docx pdfminer
+```
+
+6. Run App<br/>
+uvicorn main:app --reload`
+
+7. Access the application via a web browser at
+  [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)<br/>
+  [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc) 
+
    ```
-
-2. Install the required dependencies:
-
-   ```shell
-   pip install -r requirements.txt
-   ```
-
-3. Set up the environment and configuration variables. You may need to specify the file paths for resume/CV documents and job descriptions, as well as any other relevant parameters.
-
-4. Run the application:
-
-   ```shell
-   python app.py
-   ```
-
-5. Access the application via a web browser at `http://localhost:8000`.
-
+   
 ## Usage
 
 1. Upload a resume/CV document: On the web interface, select the resume/CV document file and click the "Upload" button.
@@ -78,32 +103,6 @@ The project requires the following dependencies:
 - Scikit-learn
 - Flask (for web interface)
 
-## Project Setup
-* Clone the Repository
-``git clone https://github.com/Paul-Ndirangu/Job-matching-using-NLP/```
-
-* Create Virtual Environment
-`pip install virtualenv`
-
-* Activate env
-> `virtualvenv venv`
-> 
-> `source ./venv/bin/activate`
-
-* You can install the required packages by running the following command:<br/>
-`pip install -r requirements.txt`
-
-* Alternative of Install Requirements<br/>
->   `pip install fastapi uvicorn`<br/>
->   `pip install sklearn typing`<br/>
->   `pip install docx pdfminer`<br/>
-
-* Run App<br/>
-`$uvicorn main:app --reload`
-
-* Open your Browser<br/>
-  [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)<br/>
-  [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc) 
 
 ## Contributing
 
