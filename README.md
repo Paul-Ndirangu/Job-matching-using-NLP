@@ -1,10 +1,5 @@
 # Job-matching-using-NLP
 
-Sure! Here's a detailed `README.md` file for your GitHub repository:
-
-```markdown
-# Job Matching with Resume/CV Analysis
-
 This project focuses on job matching by analyzing the similarity between a user's resume/CV and a job description using Natural Language Processing (NLP) techniques. The project utilizes cosine similarity to calculate the matching score, providing a quantitative measure of how well a candidate's skills and experience align with the requirements of a particular job.
 
 ## Table of Contents
@@ -77,15 +72,38 @@ To get started with this project, follow the steps below:
 The project requires the following dependencies:
 
 - Python 3.x
+- FastAPI
+- Uvicorn
 - NLTK (Natural Language Toolkit)
 - Scikit-learn
 - Flask (for web interface)
 
-You can install the required packages by running the following command:
+## Project Setup
+* Clone the Repository
+``git clone https://github.com/Paul-Ndirangu/Job-matching-using-NLP/```
 
-```shell
-pip install -r requirements.txt
-```
+* Create Virtual Environment
+`pip install virtualenv`
+
+* Activate env
+> `virtualvenv venv`
+> 
+> `source ./venv/bin/activate`
+
+* You can install the required packages by running the following command:<br/>
+`pip install -r requirements.txt`
+
+* Alternative of Install Requirements<br/>
+>   `pip install fastapi uvicorn`<br/>
+>   `pip install sklearn typing`<br/>
+>   `pip install docx pdfminer`<br/>
+
+* Run App<br/>
+`$uvicorn main:app --reload`
+
+* Open your Browser<br/>
+  [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)<br/>
+  [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc) 
 
 ## Contributing
 
@@ -105,64 +123,6 @@ Contributions to this project are welcome! If you have any suggestions, improvem
 
 This project is licensed under the [MIT License](LICENSE).
 
-```
-
 Make sure to replace `your-username/your-repo` with your actual GitHub username and repository name.
 
 Feel free to modify the content to suit your specific project needs.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Project Setup
-* Clone the Repository
-`git clone https://github.com/Paul-Ndirangu/Job-matching-using-NLP/`
-
-* Create Virtual Environment
-`pip install virtualenv`
-
-* Activate env
-> `virtualvenv venv`
-> 
-> `source ./venv/bin/activate`
-
-* Install Requirements<br/>
-`pip install -r requirements.txt`
-
-* Alternative of Install Requirements<br/>
->   `pip install fastapi uvicorn`<br/>
->   `pip install sklearn typing`<br/>
->   `pip install docx pdfminer`<br/>
-
-* Run App<br/>
-`$uvicorn main:app --reload`
-
-* Open your Browser<br/>
-  [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)<br/>
-  [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc) 
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
