@@ -75,9 +75,11 @@ pip install docx pdfminer
 ```
 
 6. Run App<br/>
-uvicorn main:app --reload`
+```shell
+uvicorn main:app --reload
+```
 
-7. Access the application via a web browser at
+8. Access the application via a web browser at
    
   [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
   
