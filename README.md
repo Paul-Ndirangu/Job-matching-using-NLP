@@ -63,7 +63,8 @@ pip install -r requirements.txt
 
 > Alternative of Install Requirements<br/>
 ```shell
-pip install fastapi uvicorn```
+pip install fastapi uvicorn
+```
 
 ```shell
 pip install sklearn typing
