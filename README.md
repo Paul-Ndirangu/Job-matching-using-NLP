@@ -104,6 +104,7 @@ The project requires the following dependencies:
 - Uvicorn
 - Docx
 - Pdfminer
+- Typing
 - Scikit-learn
 - React/Vue/Angular (for web interface)
 
