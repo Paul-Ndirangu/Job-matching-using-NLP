@@ -1,5 +1,7 @@
 # Job-matching-using-NLP
 
+![TalentBloom](images/talentbloom.png)
+
 This project focuses on job matching by analyzing the similarity between a user's resume/CV and a job description using Natural Language Processing (NLP) techniques. The project utilizes cosine similarity to calculate the matching score, providing a quantitative measure of how well a candidate's skills and experience align with the requirements of a particular job.
 
 ## Table of Contents
